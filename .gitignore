@@ -1,0 +1,32 @@
+# Object files
+*.o
+*.so
+*.obj
+*.dll
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+
+# Binary and executable files
+*.exe
+*.out
+*.app
+
+# Build folders
+build/
+bin/
+
+<<<<<<< HEAD
+# Exclude all files with names starting with "test1"
+test1*
+
+=======
+# clangd 
+.clang*
+```
+>>>>>>> b432a4b (FizzBuzz in C)
