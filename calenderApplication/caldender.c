@@ -19,9 +19,9 @@ int regexCheckForMonth(char *inputString)
     char msgbuf[100];
     regmatch_t match[1];
     char *pattern =
-        "(January|january|February|february|March|march|April|april|May|may|"
+        "\\b(January|january|February|february|March|march|April|april|May|may|"
         "June|june|July|july|August|august|September|september|October|october|"
-        "November|november|December|december)";
+        "November|november|December|december)\\b";
     int result;
 
     reti = regcomp(&regex, pattern, REG_EXTENDED | REG_ICASE);
