@@ -1,0 +1,3 @@
+[submodule "codecrafters-http-server-c"]
+	path = codecrafters-http-server-c
+	url = https://github.com/username/codecrafters-http-server-c.git
